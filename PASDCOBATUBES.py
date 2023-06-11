@@ -5,7 +5,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.model_selection import train_test_split
 
 # Load dataset
-df = pd.read_csv(r'C:\Users\prase\Documents\PASDFIX\cosmetic_cleaned.csv')
+df = pd.read_csv('cosmetic_cleaned.csv')
 
 # Set color palette
 color_palette = ["#000000", "#808080", "#ffffff"]
